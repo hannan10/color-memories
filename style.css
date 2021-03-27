@@ -1,0 +1,102 @@
+*,body {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.main-container {
+	padding-top: 13px;
+    font-family: helvetica;
+}
+.main-container .inner-container{
+	margin: 0 auto;
+	max-width: 800px;
+}
+.main-container .inner-container header {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main-container .inner-container header .right {
+    float: left;
+}
+.main-container .inner-container header .left {
+    width: 625px;
+    margin-left: 35px;
+	float: right;
+	padding-top: 8px;
+}
+.main-container .inner-container .left img {
+	width: 400px;
+}
+.main-container .inner-container header .left  ul.menu{
+	background-color: orange;
+	line-height: 30px;
+	display: inline-block;
+    width: 605px;
+    padding: 0 20px;
+}
+.main-container .inner-container header .left ul.menu li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 91px;
+}
+.main-container .inner-container header .left ul.menu li a {
+	text-decoration: none;
+	color: white;
+}
+.main-container .inner-container header .left ul.menu li:last-child {
+	margin-right: 0px;
+}
+
+.main-container .inner-container .content .paragraph h1{
+	margin-bottom: 15px;
+	font-size: 24px;
+	color: #58585a;
+}
+.main-container .inner-container .content .paragraph p{
+	font-size: 14px;
+	margin-bottom: 50px;
+	color: #58585a;
+	line-height: 18px;
+}
+.main-container .inner-container .content .image{
+	text-align: center;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-gap: 51px;
+    margin-bottom: 40px;
+}
+.main-container .inner-container .content .image .first img{
+		width: 100%;
+		padding: 15px;
+}
+.main-container .inner-container .content .image .second img {
+    margin-top: -25px;
+	cursor: pointer;
+}
+
+.main-container footer {
+	margin-bottom: 10px;
+}
+
+.main-container footer .inner-container .footer-menu ul li{
+	display: inline-block;
+	border-right: 1px solid #58585a;
+}
+.main-container footer .inner-container .footer-menu ul li:last-child {
+	border-right: 0px;
+}
+.main-container footer .inner-container .footer-menu ul li a{
+	text-decoration: none;
+	color: orange;
+	font-size: 13px;
+	padding: 0px 5px 0px 0px;
+}
+.main-container footer .inner-container .footer-menu {
+		padding: 5px;
+	}
+.main-container footer .inner-container .footer-paragraph p{
+	text-align: center;
+	font-size: 14px;
+	color: #58585a;
+}
